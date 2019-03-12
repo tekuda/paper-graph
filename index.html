@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="p5.js"></script>
+    <script src="addons/p5.dom.js"></script>
+    <script src="sketch.js"></script>
+    <script src="grid.js"></script>
+    <script src="joe.js"></script>
+<style type="text/css">
+.header {
+    width: 100%;
+    background-color: #3B5998;
+    height: 35px;
+    margin-top:0;
+}
+.style1 {
+    margin-left: 38px;
+}
+.style2 {
+    width: 100%;
+    background-color: #3B5998;
+    height: 35px;
+}
+
+
+</style>
+  </head>
+  <body class="style1">
+
+        <p>Commands</p>
+        <button class="btn" onclick="moveUp()">
+                <div id="btn_container"><img  src="arrow-up.png" width="30" height="30"/></div>
+                <span>Go Up</span>
+        </button>
+        <button class="btn" onclick="moveLeft()">
+                <div id="btn_container"><img  src="arrow-left.png" width="30" height="30"/></div>
+                <span>Go Left</span>
+        </button>
+        <button class="btn" onclick="moveDown()">
+                <div id="btn_container"><img  src="arrow-down.png" width="30" height="30"/></div>
+                <span>Go Down</span>
+        </button>
+        <button class="btn" onclick="moveRight()">
+                <div id="btn_container"><img  src="arrow-right.png" width="30" height="30"/></div>
+                <span>Go Right</span>
+        </button>
+        <button class="btn" onclick="fillSquare()">
+                <div id="btn_container"><img  src="square.png" width="30" height="30"/></div>
+                <span>Paint</span>
+        </button>
+
+        <br>
+        <br>
+                <p id="algorithm">Algorithm : <br> </p>
+
+        <br>
+        <br>
+
+        <p>Graph</p>
+
+  </body>
+</html>
